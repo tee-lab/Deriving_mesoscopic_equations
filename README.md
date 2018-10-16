@@ -1,13 +1,23 @@
 # Deriving_mesoscopic_equations
 
-This repositiory contains codes used for simulating the pairwise interaction and the ternary
-interaction model of collective behavior that are part of the book chapter entitiled
-"Deriving mesoscopic models of collective behaviour for finite populations", to be
-published in the Elsevier: Handbook of Statistics, Vol 40.
+##Codes for for "Deriving mesoscopic models of collective behaviour for finite populations", to be published in the Elsevier: Handbook of Statistics, Vol 40.
 
-All codes run on MATLAB.
+###Codes
 
-SSA_pairwise.m simulates the pairwise interaction model of collective behaviour and SSA_ternary.m simulates the ternary interaction model of collective behaviour using the the stochastic simulation algorithm. Both these codes run simulations for the time steps given by the user. The collective state is quantified as group polarization at constant epochs of time. The resulting data is a time series of group polarization. The codes also print the distribution of polarization.
+  
+  1. A MATLAB code (SDE_simulate_pairwise.m) to perform numerical integration of the mesoscopic stochastic differential equation for the pairwise interaction model of collective behaviour, written by Jitesh Jhawar.
+  
+The output is a time series of group polarization and histograms corresponding to a single group size, in Figure 3 of the manuscript.
+  
+  2. A MATLAB code (SED_simulate_ternary.m) to perform numerical integration of the mesoscopic stochastic differential equation the ternary interaction model of collective behaviour, written by Jitesh Jhawar. 
+  
+The output is a time series of group polarization and histograms corresponding to a single group size, in Figure 4 of the manuscript.
+  
+  3. A MATLAB code (SSA_pairwise.m) to simulate the pairwise interaction model of collective behaviour using the the stochastic simulation algorithm, written by Jitesh Jhawar.
+  
+The output is a time series of group polarization and histograms corresponding to a single group size, in Figure 3 of the manuscript.
+  
+  4. A MATLAB code (SSA_ternary.m) simulates the ternary interaction model of collective behaviour using the the stochastic simulation algorithm, written by Jitesh Jhawar. 
 
-SDE_simulate_pairwise.m and SED_simulate_ternary.m perform numerical integration of the mesoscopic stochastic differential equation describing the dynamics of group polarization for the pairwise and the ternary interaction model of collective behaviour. The output is the time series data of group polarization and the distribution of the same.
+The output is a time series of group polarization and histograms corresponding to a single group size, in Figure 4 of the manuscript.
 
